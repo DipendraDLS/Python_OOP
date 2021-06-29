@@ -18,13 +18,13 @@ What is Method?
 '''
 class Class_Name(object):
     
-    #class member variable should be initialize in self calling constructor so that whenever the object is created variables get automatically initilization.
+    #class member variable(instance variable) should be initialize in self calling constructor so that whenever the object is created variables get automatically initilization.
     
     def __init__(self):
-        self.variable_name = 'value'
+        self.variable_name = 'value'        #yaha banayeko variable lai instance variable vaninxa
         self.variable_name = 'value'
     
-    def method_name(self):
+    def method_name(self):                  # method banayo vani chai teslai instance method vaninxa 
         # Body of Method
         pass
 
